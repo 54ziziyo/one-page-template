@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Nuxt build/generate output
+.nuxt/
+.output/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Lock files (using pnpm)
+package-lock.json
+yarn.lock
