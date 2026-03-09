@@ -31,7 +31,45 @@ const templates = [
       orbs: ['#00f5ff', '#ff006e', '#ffd60a'],
     },
   },
-  // 更多模板陸續加入...
+  {
+    id: 'light-skincare',
+    title: 'Light Skincare',
+    description:
+      '珊瑚粉溫柔電商風 ─ 護膚品牌專屬，優雅排版搭配浮動標籤、倒數計時與評價區塊。',
+    tags: ['電商', '護膚', 'Light Mode', '精緻'],
+    color: '#FF6B47',
+    bg: 'linear-gradient(135deg, #FFF8F5 0%, #F5EDE6 100%)',
+    previewPath: '/templates/light-skincare',
+    preview: {
+      orbs: ['#FF6B47', '#FF8E6E', '#FFF0EC'],
+    },
+  },
+  {
+    id: 'dark-3c',
+    title: 'Dark 3C',
+    description:
+      '黑金高端 3C 電商 ─ 耳機 / 消費電子產品頁，金屬質感搭配 Bento Grid 特色區塊與規格展示。',
+    tags: ['電商', '3C', 'Dark Mode', '質感'],
+    color: '#c8a96e',
+    bg: 'linear-gradient(135deg, #0a0a0c 0%, #111116 100%)',
+    previewPath: '/templates/dark-3c',
+    preview: {
+      orbs: ['#c8a96e', '#e8cfa0', '#1a1a22'],
+    },
+  },
+  {
+    id: 'light-coach',
+    title: 'Light Coach',
+    description:
+      '企業培訓服務 ─ 適合企業、教練或線上課程的服務型網站，清新配色搭配動態數字和客戶評價區塊。',
+    tags: ['教練', '商務', 'Light Mode', '服務'],
+    color: '#0C1E35',
+    bg: 'linear-gradient(135deg, #0a0a0c 0%, #111116 100%)',
+    previewPath: '/templates/light-coach',
+    preview: {
+      orbs: ['#0C1E35', '#1A2A4C', '#2A3A5C'],
+    },
+  },
 ];
 </script>
 
@@ -184,8 +222,11 @@ const templates = [
 html {
   scroll-behavior: smooth;
 }
+</style>
 
-body {
+<style scoped>
+.gallery-root {
+  min-height: 100vh;
   background: #080808;
   color: #e8e8e8;
   font-family:
@@ -194,12 +235,6 @@ body {
     BlinkMacSystemFont,
     sans-serif;
   -webkit-font-smoothing: antialiased;
-}
-</style>
-
-<style scoped>
-.gallery-root {
-  min-height: 100vh;
 }
 
 /* ── Header ── */

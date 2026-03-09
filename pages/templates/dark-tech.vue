@@ -296,7 +296,7 @@ onMounted(() => {
           下一代企業解決方案 · {{ new Date().getFullYear() }}
         </div>
         <h1 class="hero-title">
-          <span class="line1">重新定義</span>
+          <span class="line1">由你重新定義</span>
           <span class="line2">數位未來</span>
         </h1>
         <p class="hero-sub">
@@ -920,7 +920,7 @@ onMounted(() => {
   </div>
 </template>
 
-<style>
+<style scoped>
 /* ── Dark Tech 全域樣式 (只在此頁生效的基底) ── */
 .dark-tech-root {
   --neon-cyan: #00f5ff;
