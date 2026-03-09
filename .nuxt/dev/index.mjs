@@ -635,12 +635,6 @@ const _inlineRuntimeConfig = {
       "/__nuxt_error": {
         "cache": false
       },
-      "/": {
-        "prerender": true
-      },
-      "/templates/dark-tech": {
-        "prerender": true
-      },
       "/_nuxt/builds/meta/**": {
         "headers": {
           "cache-control": "public, max-age=31536000, immutable"
@@ -650,12 +644,6 @@ const _inlineRuntimeConfig = {
         "headers": {
           "cache-control": "public, max-age=1, immutable"
         }
-      },
-      "//_payload.json": {
-        "prerender": true
-      },
-      "/templates/dark-tech/_payload.json": {
-        "prerender": true
       }
     }
   },
