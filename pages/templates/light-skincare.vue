@@ -211,7 +211,7 @@ onMounted(() => {
           🌿 2025 全新配方 · 限量首發
         </div>
         <h1 class="hero-title">
-          讓肌膚<br /><em>自然</em><br /><span class="stroke">綻放</span>
+          讓肌膚<br /><em>自然</em><span class="stroke">綻放</span>
         </h1>
         <p class="hero-sub">
           融合 10 種植萃精華 × 玻尿酸微導技術，72

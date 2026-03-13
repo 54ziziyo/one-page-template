@@ -63,11 +63,24 @@ const templates = [
     description:
       '企業培訓服務 ─ 適合企業、教練或線上課程的服務型網站，清新配色搭配動態數字和客戶評價區塊。',
     tags: ['教練', '商務', 'Light Mode', '服務'],
-    color: '#0C1E35',
+    color: '#2082ff',
     bg: 'linear-gradient(135deg, #0a0a0c 0%, #111116 100%)',
     previewPath: '/templates/light-coach',
     preview: {
-      orbs: ['#0C1E35', '#1A2A4C', '#2A3A5C'],
+      orbs: ['#2082ff', '#1A2A4C', '#2082ff'],
+    },
+  },
+  {
+    id: 'light-building',
+    title: 'Light Building',
+    description:
+      '建築設計公司 ─ 適合建築師事務所或室內設計公司的作品展示頁，極簡風格搭配大圖輪播和項目分類功能。',
+    tags: ['建築', '設計', 'Light Mode', '作品展示'],
+    color: '#B87A5E',
+    bg: 'linear-gradient(135deg, #D4A08A 0%, #F5EDE6 100%)',
+    previewPath: '/templates/light-building',
+    preview: {
+      orbs: ['#D4A08A', '#E8CFA0', '#B87A5E'],
     },
   },
 ];
@@ -178,7 +191,7 @@ const templates = [
           </div>
           <div class="card-info">
             <div class="card-top">
-              <h3 class="card-title" style="color: #444">新模板即將推出</h3>
+              <h3 class="card-title">新模板即將推出</h3>
             </div>
             <p class="card-desc">持續更新中，歡迎追蹤 GitHub 獲取最新動態。</p>
           </div>
@@ -434,7 +447,7 @@ html {
 }
 .template-card--soon {
   cursor: default;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 .template-card--soon:hover {
   transform: none;
@@ -549,6 +562,7 @@ html {
   margin-bottom: 10px;
 }
 .card-title {
+  color: #fff;
   font-size: 1.1rem;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -566,7 +580,7 @@ html {
 }
 .card-desc {
   font-size: 0.85rem;
-  color: #666;
+  color: #bebcbc;
   line-height: 1.7;
   margin-bottom: 16px;
 }
@@ -594,7 +608,7 @@ html {
   font-size: 1.4rem;
   font-weight: 900;
   letter-spacing: 0.3em;
-  color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 1);
   text-align: center;
   line-height: 1.3;
 }

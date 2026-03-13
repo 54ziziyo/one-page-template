@@ -1024,7 +1024,7 @@ onUnmounted(() => {
                 >
                   <span v-if="loading">傳送中…</span>
                   <span v-else>
-                    預約我的免費諮詢
+                    免費預約諮詢
                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                       <path
                         d="M3.75 9h10.5M9.75 4.5L14.25 9l-4.5 4.5"
@@ -4449,6 +4449,7 @@ button {
   .footer__top {
     flex-direction: column;
     gap: 32px;
+    padding-top: 24px;
   }
   .footer__cols {
     flex-wrap: wrap;
