@@ -1,6 +1,6 @@
 {
   "buildCommand": "nuxt build",
   "devCommand": "nuxt dev",
-  "installCommand": "npm install",
+  "installCommand": "pnpm install",
   "framework": "nuxtjs"
 }

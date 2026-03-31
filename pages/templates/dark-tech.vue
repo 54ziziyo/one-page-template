@@ -1,6 +1,9 @@
 <script setup lang="ts">
 useHead({
   title: 'ZEONA — 未來科技解決方案',
+  bodyAttrs: {
+    style: 'background:#020408;margin:0;padding:0;',
+  },
   link: [
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     {

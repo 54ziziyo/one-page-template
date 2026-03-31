@@ -1080,6 +1080,7 @@ onUnmounted(() => {
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Instrument+Sans:wght@400;500;600;700&display=swap');
 /* ═══════════════════════════════════════
    DESIGN TOKENS
 ═══════════════════════════════════════ */
@@ -1116,8 +1117,6 @@ onUnmounted(() => {
   cursor: none;
 }
 
-/* Import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Instrument+Sans:wght@400;500;600;700&display=swap');
 
 /* ── Cursor ─────────────────────────────────────────── */
 .c-dot {
@@ -2776,6 +2775,7 @@ button {
 </style>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Instrument+Sans:wght@400;500;600;700&display=swap');
 /* ═══════════════════════════════════════
    DESIGN TOKENS
 ═══════════════════════════════════════ */
@@ -2812,8 +2812,6 @@ button {
   cursor: none;
 }
 
-/* Import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Instrument+Sans:wght@400;500;600;700&display=swap');
 
 /* ── Cursor ─────────────────────────────────────────── */
 .c-dot {
